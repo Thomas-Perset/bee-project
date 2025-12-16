@@ -1,0 +1,56 @@
+--------------------------------------------------------
+conda activate monenv
+
+jupyter notebook
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+
+1  Extraction de caractéristiques
+
+--------------------------------------------------------
+
+Les mesures de forme et de symétrie disponibles dans le Jupyter Notebook fourni sur Moodle (cours IG.2411). (sym_h / sym_v)
+
+Le rapport entre le nombre de pixels de l’insecte et le nombre total de pixels de l’image. (area_ratio)
+
+Les valeurs minimales, maximales et moyennes pour les canaux Rouge, Vert et Bleu à l’intérieur du masque. (min/max/mean/median/std pour le max r g b)
+
+La médiane et l’écart-type pour les canaux Rouge, Vert et Bleu à l’intérieur du masque (IG.2412). (min/max/mean/median/std pour le max r g b)
+
+Au moins deux autres caractéristiques de votre choix, pouvant être extraites à l’intérieur ou à l’extérieur du masque. (eccentricity / solidity)
+
+--------------------------------------------------------
+
+2 Visualisation des données 
+
+--------------------------------------------------------
+
+Graphiques de votre choix montrant la répartition des types d’insectes (en utilisant les colonnes “bug type” et “species” du fichier Excel). //// déjà fait ////
+
+Une projection PCA de vos caractéristiques en 2 dimensions.
+
+Au moins 2 autres projections non linéaires de vos caractéristiques (IG.2412).
+
+--------------------------------------------------------
+
+3 Machine Learning et Deep Learning (voir chap gpt 'Ecrire code projet') 
+
+--------------------------------------------------------
+prédire la colonne “bug type” //// sur quoi j'ai déjà fait ////
+
+voir quelles sont les meilleurs algo (vue qu'il y a beaucoup de parameter)
+
+classification
+lab 2 : KNN / LDA / 
+lab 3 : Classification Trees /  Bagging, Random forest and Boosting / SVM
+lab 4 :  K-means clustering / Hierarchical clustering
+lab 5 NN
+
+
+Pour chaque algorithme, vous devez :
+
+Calculer les indices de qualité pertinents sur les données d’entraînement.
+
+Commenter vos résultats.
